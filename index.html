@@ -189,6 +189,7 @@ Automatic payouts in USDC-SPL to all token holders.
         id: 'panelA',
         name: 'Panel A - São Paulo',
         location: 'São Paulo, Brazil',
+        image: 'assets/panel-sao-paulo.svg',
         energyToday: 128.4,
         monthlyReturn: 8.2,
         totalEnergy: 4860,
@@ -200,6 +201,7 @@ Automatic payouts in USDC-SPL to all token holders.
         id: 'panelB',
         name: 'Panel B - Fortaleza',
         location: 'Fortaleza, Brazil',
+        image: 'assets/panel-fortaleza.svg',
         energyToday: 142.9,
         monthlyReturn: 7.8,
         totalEnergy: 5094,
@@ -211,6 +213,7 @@ Automatic payouts in USDC-SPL to all token holders.
         id: 'panelC',
         name: 'Panel C - Belo Horizonte',
         location: 'Belo Horizonte, Brazil',
+        image: 'assets/panel-belo-horizonte.svg',
         energyToday: 119.7,
         monthlyReturn: 9.1,
         totalEnergy: 4625,
@@ -230,7 +233,7 @@ Automatic payouts in USDC-SPL to all token holders.
       panelCardsContainer.innerHTML = panels.map(panel => `
         <div class="col-md-6 col-xl-4">
           <div class="card h-100" data-panel-id="${panel.id}">
-            <img src="https://via.placeholder.com/400x200" class="card-img-top" alt="Solar panel ${panel.name}">
+            <img src="${panel.image}" class="card-img-top" alt="Illustration of ${panel.name}">
             <div class="card-body">
               <h5 class="card-title mb-1">${panel.name}</h5>
               <p class="text-muted"><i class="bi bi-geo-alt me-2"></i>${panel.location}</p>
