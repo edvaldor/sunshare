@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="220" viewBox="0 0 400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="220" rx="18" fill="url(#backgroundGradientBH)"/>
+  <path d="M48 170C76 150 118 140 162 147C180 150 208 158 232 156C262 154 288 140 312 124C340 104 362 96 370 104" stroke="#FFC25B" stroke-width="5" stroke-linecap="round" opacity="0.28"/>
+  <g filter="url(#panelShadowBH)">
+    <rect x="64" y="58" width="210" height="110" rx="14" fill="url(#panelGradientBH)"/>
+  </g>
+  <rect x="74" y="68" width="190" height="90" rx="10" fill="#083167"/>
+  <g stroke="#11579E" stroke-width="2.4">
+    <path d="M74 92H264" opacity="0.9"/>
+    <path d="M74 118H264" opacity="0.8"/>
+    <path d="M74 144H264" opacity="0.7"/>
+    <path d="M118 68V158" opacity="0.9"/>
+    <path d="M166 68V158" opacity="0.9"/>
+    <path d="M214 68V158" opacity="0.9"/>
+  </g>
+  <g>
+    <rect x="282" y="92" width="32" height="72" rx="8" fill="#0B355F" stroke="#11579E" stroke-width="2" opacity="0.55"/>
+    <rect x="324" y="106" width="28" height="48" rx="7" fill="#0B355F" stroke="#11579E" stroke-width="2" opacity="0.55"/>
+    <path d="M338 156L346 174" stroke="#FFC25B" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <g>
+    <circle cx="80" cy="52" r="18" fill="url(#sunGradientBH)"/>
+    <path d="M60 52H68" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M92 52H100" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M80 32V40" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M80 64V72" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M65 37L70 42" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M95 37L90 42" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M95 67L90 62" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M65 67L70 62" stroke="#FFDB84" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <g opacity="0.6">
+    <circle cx="126" cy="190" r="10" fill="#FFC25B"/>
+    <path d="M126 180L126 164" stroke="#FFC25B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M118 184L107 170" stroke="#FFC25B" stroke-width="4" stroke-linecap="round"/>
+    <path d="M134 184L145 170" stroke="#FFC25B" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="74" y="188" fill="#FFFFFF" font-size="18" font-weight="600" font-family="'Segoe UI', Arial" opacity="0.94">Belo Horizonte Terraced Farm</text>
+  <text x="74" y="206" fill="#FEEED0" font-size="13" font-family="'Segoe UI', Arial" opacity="0.83">Tiered installation adapted to hillside landscape</text>
+  <defs>
+    <linearGradient id="backgroundGradientBH" x1="20" y1="12" x2="400" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2027"/>
+      <stop offset="1" stop-color="#203A43"/>
+    </linearGradient>
+    <linearGradient id="panelGradientBH" x1="64" y1="58" x2="274" y2="168" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1576D3"/>
+      <stop offset="1" stop-color="#0A3066"/>
+    </linearGradient>
+    <linearGradient id="sunGradientBH" x1="66" y1="38" x2="94" y2="66" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFE08A"/>
+      <stop offset="1" stop-color="#FFB347"/>
+    </linearGradient>
+    <filter id="panelShadowBH" x="48" y="50" width="242" height="142" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feOffset dy="7"/>
+      <feGaussianBlur stdDeviation="8"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_dropShadow"/>
+      <feBlend in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+    </filter>
+  </defs>
+</svg>
